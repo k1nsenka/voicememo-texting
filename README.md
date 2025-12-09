@@ -35,7 +35,7 @@ pip install -e .
 ### 基本的な使い方
 
 ```bash
-voicememo-transcribe /path/to/voice-memo.m4a
+uv run voicememo-transcribe /path/to/voice-memo.m4a
 ```
 
 これにより、同じディレクトリに以下のファイルが生成されます：

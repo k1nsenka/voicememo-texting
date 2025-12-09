@@ -27,3 +27,6 @@ build/
 # 環境変数・シークレット
 .env
 .env.local
+
+outputs/
+*.m4a
