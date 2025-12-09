@@ -35,7 +35,7 @@
 - [x] PDF 生成機能を実装
 - [x] 簡易テスト or 手動確認
 - [x] README.md を作成
-- [ ] PR を作成
+- [x] PR を作成 → https://github.com/k1nsenka/voicememo-texting/pull/1
 
 
 ### 出力仕様
