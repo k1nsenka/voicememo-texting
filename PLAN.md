@@ -26,16 +26,17 @@
 ### TODO
 
 - [x] PLAN.md のタスク分解を書く
-- [ ] ブランチ `feature/voicememo-transcribe-cli` を作成
-- [ ] `.gitignore` を整備
-- [ ] `uv init` でプロジェクト初期化
-- [ ] 必要な依存を `uv add` で追加
-- [ ] CLI エントリポイント (`cli.py`) を作成
-- [ ] Whisper を用いた文字起こし機能を実装
-- [ ] PDF 生成機能を実装
-- [ ] 簡易テスト or 手動確認
-- [ ] README.md を作成
-- [ ] PR を作成
+- [x] ブランチ `feature/voicememo-transcribe-cli` を作成
+- [x] `.gitignore` を整備
+- [x] `uv init` でプロジェクト初期化
+- [x] 必要な依存を `uv add` で追加
+- [x] CLI エントリポイント (`cli.py`) を作成
+- [x] Whisper を用いた文字起こし機能を実装
+- [x] PDF 生成機能を実装
+- [x] 簡易テスト or 手動確認
+- [x] README.md を作成
+- [x] PR を作成 → https://github.com/k1nsenka/voicememo-texting/pull/1
+
 
 ### 出力仕様
 

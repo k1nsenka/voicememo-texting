@@ -1,0 +1,20 @@
+[project]
+name = "voicememo-transcribe"
+version = "0.1.0"
+description = "Macボイスメモ（.m4a）をオフラインで文字起こしし、テキストおよびPDFを生成するCLIツール"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fpdf2>=2.8.5",
+    "openai-whisper>=20250625",
+]
+
+[project.scripts]
+voicememo-transcribe = "voicememo_transcribe.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
